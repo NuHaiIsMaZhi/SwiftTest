@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB83A9EA20401A500075DA0B /* MZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB83A9E920401A500075DA0B /* MZNavigationController.swift */; };
+		ABA333FE203FF65A0076283B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA333FD203FF65A0076283B /* AppDelegate.swift */; };
+		ABA33400203FF65A0076283B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA333FF203FF65A0076283B /* ViewController.swift */; };
+		ABA33403203FF65A0076283B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA33401203FF65A0076283B /* Main.storyboard */; };
+		ABA33405203FF65A0076283B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA33404203FF65A0076283B /* Assets.xcassets */; };
+		ABA33408203FF65A0076283B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA33406203FF65A0076283B /* LaunchScreen.storyboard */; };
+		ABA33413203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA33412203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift */; };
+		ABA3341E203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA3341D203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift */; };
+		ABBC5E802043907C0064FAC4 /* MZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E7F2043907C0064FAC4 /* MZTabBarController.swift */; };
+		ABBC5E832043933C0064FAC4 /* MZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E822043933C0064FAC4 /* MZMainViewController.swift */; };
+		ABBC5E852043935A0064FAC4 /* MZClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E842043935A0064FAC4 /* MZClassViewController.swift */; };
+		ABBC5E872043937B0064FAC4 /* MZCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E862043937B0064FAC4 /* MZCartViewController.swift */; };
+		ABBC5E892043939E0064FAC4 /* MZMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E882043939E0064FAC4 /* MZMyViewController.swift */; };
+		E725A71F24C3C37A26FE39E6 /* libPods-MaZhiSwiftLKKKKKK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B8D26E9BA759CAF5D3B403 /* libPods-MaZhiSwiftLKKKKKK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA3340F203FF65A0076283B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA333F2203FF65A0076283B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA333F9203FF65A0076283B;
+			remoteInfo = MaZhiSwiftLKKKKKK;
+		};
+		ABA3341A203FF65B0076283B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA333F2203FF65A0076283B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA333F9203FF65A0076283B;
+			remoteInfo = MaZhiSwiftLKKKKKK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3EAD4B8B6ACE855D72E2DC /* Pods-MaZhiSwiftLKKKKKK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaZhiSwiftLKKKKKK.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaZhiSwiftLKKKKKK/Pods-MaZhiSwiftLKKKKKK.release.xcconfig"; sourceTree = "<group>"; };
+		69883B6B563D4745FEEDB405 /* Pods-MaZhiSwiftLKKKKKK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaZhiSwiftLKKKKKK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaZhiSwiftLKKKKKK/Pods-MaZhiSwiftLKKKKKK.debug.xcconfig"; sourceTree = "<group>"; };
+		85B8D26E9BA759CAF5D3B403 /* libPods-MaZhiSwiftLKKKKKK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaZhiSwiftLKKKKKK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB83A9E920401A500075DA0B /* MZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZNavigationController.swift; sourceTree = "<group>"; };
+		ABA333FA203FF65A0076283B /* MaZhiSwiftLKKKKKK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaZhiSwiftLKKKKKK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA333FD203FF65A0076283B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABA333FF203FF65A0076283B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABA33402203FF65A0076283B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA33404203FF65A0076283B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA33407203FF65A0076283B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA33409203FF65A0076283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA3340E203FF65A0076283B /* MaZhiSwiftLKKKKKKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaZhiSwiftLKKKKKKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA33412203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaZhiSwiftLKKKKKKTests.swift; sourceTree = "<group>"; };
+		ABA33414203FF65B0076283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA33419203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaZhiSwiftLKKKKKKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA3341D203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaZhiSwiftLKKKKKKUITests.swift; sourceTree = "<group>"; };
+		ABA3341F203FF65B0076283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBC5E7F2043907C0064FAC4 /* MZTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZTabBarController.swift; sourceTree = "<group>"; };
+		ABBC5E822043933C0064FAC4 /* MZMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZMainViewController.swift; sourceTree = "<group>"; };
+		ABBC5E842043935A0064FAC4 /* MZClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZClassViewController.swift; sourceTree = "<group>"; };
+		ABBC5E862043937B0064FAC4 /* MZCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZCartViewController.swift; sourceTree = "<group>"; };
+		ABBC5E882043939E0064FAC4 /* MZMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZMyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA333F7203FF65A0076283B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E725A71F24C3C37A26FE39E6 /* libPods-MaZhiSwiftLKKKKKK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA3340B203FF65A0076283B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA33416203FF65B0076283B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B580AE73DAB6264EDA4A7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85B8D26E9BA759CAF5D3B403 /* libPods-MaZhiSwiftLKKKKKK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABA333F1203FF65A0076283B = {
+			isa = PBXGroup;
+			children = (
+				ABA333FC203FF65A0076283B /* MaZhiSwiftLKKKKKK */,
+				ABA33411203FF65A0076283B /* MaZhiSwiftLKKKKKKTests */,
+				ABA3341C203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests */,
+				ABA333FB203FF65A0076283B /* Products */,
+				D472C51CBE45043D0C4616A2 /* Pods */,
+				6B580AE73DAB6264EDA4A7E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA333FB203FF65A0076283B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA333FA203FF65A0076283B /* MaZhiSwiftLKKKKKK.app */,
+				ABA3340E203FF65A0076283B /* MaZhiSwiftLKKKKKKTests.xctest */,
+				ABA33419203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA333FC203FF65A0076283B /* MaZhiSwiftLKKKKKK */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC5E812043932B0064FAC4 /* VC视图 */,
+				ABA333FD203FF65A0076283B /* AppDelegate.swift */,
+				ABA333FF203FF65A0076283B /* ViewController.swift */,
+				AB83A9E920401A500075DA0B /* MZNavigationController.swift */,
+				ABBC5E7F2043907C0064FAC4 /* MZTabBarController.swift */,
+				ABA33401203FF65A0076283B /* Main.storyboard */,
+				ABA33404203FF65A0076283B /* Assets.xcassets */,
+				ABA33406203FF65A0076283B /* LaunchScreen.storyboard */,
+				ABA33409203FF65A0076283B /* Info.plist */,
+			);
+			path = MaZhiSwiftLKKKKKK;
+			sourceTree = "<group>";
+		};
+		ABA33411203FF65A0076283B /* MaZhiSwiftLKKKKKKTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA33412203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift */,
+				ABA33414203FF65B0076283B /* Info.plist */,
+			);
+			path = MaZhiSwiftLKKKKKKTests;
+			sourceTree = "<group>";
+		};
+		ABA3341C203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA3341D203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift */,
+				ABA3341F203FF65B0076283B /* Info.plist */,
+			);
+			path = MaZhiSwiftLKKKKKKUITests;
+			sourceTree = "<group>";
+		};
+		ABBC5E812043932B0064FAC4 /* VC视图 */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC5E822043933C0064FAC4 /* MZMainViewController.swift */,
+				ABBC5E842043935A0064FAC4 /* MZClassViewController.swift */,
+				ABBC5E862043937B0064FAC4 /* MZCartViewController.swift */,
+				ABBC5E882043939E0064FAC4 /* MZMyViewController.swift */,
+			);
+			path = "VC视图";
+			sourceTree = "<group>";
+		};
+		D472C51CBE45043D0C4616A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69883B6B563D4745FEEDB405 /* Pods-MaZhiSwiftLKKKKKK.debug.xcconfig */,
+				4A3EAD4B8B6ACE855D72E2DC /* Pods-MaZhiSwiftLKKKKKK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA333F9203FF65A0076283B /* MaZhiSwiftLKKKKKK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA33422203FF65B0076283B /* Build configuration list for PBXNativeTarget "MaZhiSwiftLKKKKKK" */;
+			buildPhases = (
+				5100CCEA064E9897B89F5DEB /* [CP] Check Pods Manifest.lock */,
+				ABA333F6203FF65A0076283B /* Sources */,
+				ABA333F7203FF65A0076283B /* Frameworks */,
+				ABA333F8203FF65A0076283B /* Resources */,
+				CE0D23A9D9AA4039731C0C42 /* [CP] Embed Pods Frameworks */,
+				6839AB147F5017608D6A8FAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaZhiSwiftLKKKKKK;
+			productName = MaZhiSwiftLKKKKKK;
+			productReference = ABA333FA203FF65A0076283B /* MaZhiSwiftLKKKKKK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA3340D203FF65A0076283B /* MaZhiSwiftLKKKKKKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA33425203FF65B0076283B /* Build configuration list for PBXNativeTarget "MaZhiSwiftLKKKKKKTests" */;
+			buildPhases = (
+				ABA3340A203FF65A0076283B /* Sources */,
+				ABA3340B203FF65A0076283B /* Frameworks */,
+				ABA3340C203FF65A0076283B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA33410203FF65A0076283B /* PBXTargetDependency */,
+			);
+			name = MaZhiSwiftLKKKKKKTests;
+			productName = MaZhiSwiftLKKKKKKTests;
+			productReference = ABA3340E203FF65A0076283B /* MaZhiSwiftLKKKKKKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA33418203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA33428203FF65B0076283B /* Build configuration list for PBXNativeTarget "MaZhiSwiftLKKKKKKUITests" */;
+			buildPhases = (
+				ABA33415203FF65B0076283B /* Sources */,
+				ABA33416203FF65B0076283B /* Frameworks */,
+				ABA33417203FF65B0076283B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA3341B203FF65B0076283B /* PBXTargetDependency */,
+			);
+			name = MaZhiSwiftLKKKKKKUITests;
+			productName = MaZhiSwiftLKKKKKKUITests;
+			productReference = ABA33419203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA333F2203FF65A0076283B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = BKZ;
+				TargetAttributes = {
+					ABA333F9203FF65A0076283B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					ABA3340D203FF65A0076283B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABA333F9203FF65A0076283B;
+					};
+					ABA33418203FF65B0076283B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABA333F9203FF65A0076283B;
+					};
+				};
+			};
+			buildConfigurationList = ABA333F5203FF65A0076283B /* Build configuration list for PBXProject "MaZhiSwiftLKKKKKK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA333F1203FF65A0076283B;
+			productRefGroup = ABA333FB203FF65A0076283B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA333F9203FF65A0076283B /* MaZhiSwiftLKKKKKK */,
+				ABA3340D203FF65A0076283B /* MaZhiSwiftLKKKKKKTests */,
+				ABA33418203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA333F8203FF65A0076283B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA33408203FF65A0076283B /* LaunchScreen.storyboard in Resources */,
+				ABA33405203FF65A0076283B /* Assets.xcassets in Resources */,
+				ABA33403203FF65A0076283B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA3340C203FF65A0076283B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA33417203FF65B0076283B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5100CCEA064E9897B89F5DEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6839AB147F5017608D6A8FAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaZhiSwiftLKKKKKK/Pods-MaZhiSwiftLKKKKKK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0D23A9D9AA4039731C0C42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaZhiSwiftLKKKKKK/Pods-MaZhiSwiftLKKKKKK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA333F6203FF65A0076283B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBC5E852043935A0064FAC4 /* MZClassViewController.swift in Sources */,
+				ABBC5E872043937B0064FAC4 /* MZCartViewController.swift in Sources */,
+				ABA33400203FF65A0076283B /* ViewController.swift in Sources */,
+				AB83A9EA20401A500075DA0B /* MZNavigationController.swift in Sources */,
+				ABBC5E802043907C0064FAC4 /* MZTabBarController.swift in Sources */,
+				ABA333FE203FF65A0076283B /* AppDelegate.swift in Sources */,
+				ABBC5E832043933C0064FAC4 /* MZMainViewController.swift in Sources */,
+				ABBC5E892043939E0064FAC4 /* MZMyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA3340A203FF65A0076283B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA33413203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA33415203FF65B0076283B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA3341E203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA33410203FF65A0076283B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA333F9203FF65A0076283B /* MaZhiSwiftLKKKKKK */;
+			targetProxy = ABA3340F203FF65A0076283B /* PBXContainerItemProxy */;
+		};
+		ABA3341B203FF65B0076283B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA333F9203FF65A0076283B /* MaZhiSwiftLKKKKKK */;
+			targetProxy = ABA3341A203FF65B0076283B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA33401203FF65A0076283B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA33402203FF65A0076283B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA33406203FF65A0076283B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA33407203FF65A0076283B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA33420203FF65B0076283B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA33421203FF65B0076283B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA33423203FF65B0076283B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69883B6B563D4745FEEDB405 /* Pods-MaZhiSwiftLKKKKKK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JFG26C649;
+				INFOPLIST_FILE = MaZhiSwiftLKKKKKK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.MaZhiSwiftLKKKKKK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		ABA33424203FF65B0076283B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3EAD4B8B6ACE855D72E2DC /* Pods-MaZhiSwiftLKKKKKK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JFG26C649;
+				INFOPLIST_FILE = MaZhiSwiftLKKKKKK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.MaZhiSwiftLKKKKKK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+		ABA33426203FF65B0076283B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JFG26C649;
+				INFOPLIST_FILE = MaZhiSwiftLKKKKKKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.MaZhiSwiftLKKKKKKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaZhiSwiftLKKKKKK.app/MaZhiSwiftLKKKKKK";
+			};
+			name = Debug;
+		};
+		ABA33427203FF65B0076283B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JFG26C649;
+				INFOPLIST_FILE = MaZhiSwiftLKKKKKKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.MaZhiSwiftLKKKKKKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaZhiSwiftLKKKKKK.app/MaZhiSwiftLKKKKKK";
+			};
+			name = Release;
+		};
+		ABA33429203FF65B0076283B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JFG26C649;
+				INFOPLIST_FILE = MaZhiSwiftLKKKKKKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.MaZhiSwiftLKKKKKKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaZhiSwiftLKKKKKK;
+			};
+			name = Debug;
+		};
+		ABA3342A203FF65B0076283B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JFG26C649;
+				INFOPLIST_FILE = MaZhiSwiftLKKKKKKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.MaZhiSwiftLKKKKKKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaZhiSwiftLKKKKKK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA333F5203FF65A0076283B /* Build configuration list for PBXProject "MaZhiSwiftLKKKKKK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA33420203FF65B0076283B /* Debug */,
+				ABA33421203FF65B0076283B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA33422203FF65B0076283B /* Build configuration list for PBXNativeTarget "MaZhiSwiftLKKKKKK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA33423203FF65B0076283B /* Debug */,
+				ABA33424203FF65B0076283B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA33425203FF65B0076283B /* Build configuration list for PBXNativeTarget "MaZhiSwiftLKKKKKKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA33426203FF65B0076283B /* Debug */,
+				ABA33427203FF65B0076283B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA33428203FF65B0076283B /* Build configuration list for PBXNativeTarget "MaZhiSwiftLKKKKKKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA33429203FF65B0076283B /* Debug */,
+				ABA3342A203FF65B0076283B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA333F2203FF65A0076283B /* Project object */;
+}
