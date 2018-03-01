@@ -11,16 +11,40 @@ import UIKit
 
 class MZMainViewController: UIViewController,ChargeBgColorDelegate {
     
-        override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    var baseScrollView = UIScrollView()
+    
+    
+    override func viewDidLoad() {
         
+        super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         
-        let textButton:UIButton = UIButton()
-        textButton.frame = CGRect(x: 110, y: 100, width: 200, height: 200)
-        textButton.backgroundColor = UIColor.blue
-        textButton.addTarget(self, action: #selector(actionAnimaion), for: UIControlEvents.touchUpInside)
-        self.view .addSubview(textButton)
+        baseScrollView = UIScrollView()
+        baseScrollView.backgroundColor = UIColor.red
+        baseScrollView.alwaysBounceVertical = true
+        baseScrollView.alwaysBounceHorizontal = true
+        baseScrollView.contentSize = CGSize(width: 0, height: self.view.frame.size.height + 100)
+        self.view .addSubview(baseScrollView)
+        _ = baseScrollView.sd_layout().bottomSpaceToView(self.view, 0)?.topSpaceToView(self.view,0)?.leftSpaceToView(self.view,0)?.rightSpaceToView(self.view,0)
+        
+        buildTopView()
+    }
+    
+    func buildTopView(){
+        
+        let topBaseView = UIView()
+        topBaseView.backgroundColor = UIColor.yellow
+        baseScrollView .addSubview(topBaseView)
+        _ = topBaseView.sd_layout().topSpaceToView(baseScrollView,0)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+    }
+    
+    func buildSecondView(){
+        
+        let secondView = UIView()
+        secondView.backgroundColor = UIColor.yellow
+        baseScrollView .addSubview(secondView)
+        _ = secondView.sd_layout().topSpaceToView(baseScrollView,0)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
     }
     
     @objc func actionAnimaion(){

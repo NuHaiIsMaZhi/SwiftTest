@@ -58,6 +58,8 @@
 		ABA33419203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaZhiSwiftLKKKKKKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA3341D203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaZhiSwiftLKKKKKKUITests.swift; sourceTree = "<group>"; };
 		ABA3341F203FF65B0076283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA8082D2047A37A008ED5BA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ABA808322047AD15008ED5BA /* MZHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZHeader.h; sourceTree = "<group>"; };
 		ABBC5E7F2043907C0064FAC4 /* MZTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZTabBarController.swift; sourceTree = "<group>"; };
 		ABBC5E822043933C0064FAC4 /* MZMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZMainViewController.swift; sourceTree = "<group>"; };
 		ABBC5E842043935A0064FAC4 /* MZClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZClassViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		ABA333F1203FF65A0076283B = {
 			isa = PBXGroup;
 			children = (
+				ABA808322047AD15008ED5BA /* MZHeader.h */,
 				ABA333FC203FF65A0076283B /* MaZhiSwiftLKKKKKK */,
 				ABA33411203FF65A0076283B /* MaZhiSwiftLKKKKKKTests */,
 				ABA3341C203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests */,
@@ -129,6 +132,7 @@
 				ABA333FF203FF65A0076283B /* ViewController.swift */,
 				AB83A9E920401A500075DA0B /* MZNavigationController.swift */,
 				ABBC5E7F2043907C0064FAC4 /* MZTabBarController.swift */,
+				ABA8082D2047A37A008ED5BA /* PrefixHeader.pch */,
 				ABA33401203FF65A0076283B /* Main.storyboard */,
 				ABA33404203FF65A0076283B /* Assets.xcassets */,
 				ABA33406203FF65A0076283B /* LaunchScreen.storyboard */,
@@ -536,11 +540,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JFG26C649;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = /Users/saifing/Desktop/SwiftTest/MaZhiSwiftLKKKKKK/PrefixHeader.pch;
 				INFOPLIST_FILE = MaZhiSwiftLKKKKKK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.MaZhiSwiftLKKKKKK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/saifing/Desktop/SwiftTest/MZHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
@@ -554,11 +561,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JFG26C649;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = /Users/saifing/Desktop/SwiftTest/MaZhiSwiftLKKKKKK/PrefixHeader.pch;
 				INFOPLIST_FILE = MaZhiSwiftLKKKKKK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.MaZhiSwiftLKKKKKK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/saifing/Desktop/SwiftTest/MZHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";

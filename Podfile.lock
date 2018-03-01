@@ -42,7 +42,7 @@ PODS:
   - RealReachability/Connection (1.1.9)
   - RealReachability/Ping (1.1.9)
   - RSKImageCropper (2.0.0)
-  - SDAutoLayout (2.2.0)
+  - SDAutoLayout (2.1.9)
   - SDCycleScrollView (1.75):
     - SDWebImage (>= 4.0.0)
   - SDWebImage (4.2.2):
@@ -96,7 +96,7 @@ SPEC CHECKSUMS:
   MOBFoundation: dc4419633249fa4f6a0c0a7ad29cbbb376421ed6
   RealReachability: a8c483900986a0f3305733961effbfbb00637a02
   RSKImageCropper: d9a1acbc0600bf8decc8f0d21895872c99a9e4cf
-  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
+  SDAutoLayout: 6b6f4db0d009dfc46cef14ef710dbb164e86616c
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
@@ -104,6 +104,6 @@ SPEC CHECKSUMS:
   TOWebViewController: a29908019f7e0e0f8eccfab8a1ee8dcdf4fc5aac
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: b81225bcb6e70378fec706c84b46570ec992316a
+PODFILE CHECKSUM: 4ba293787d4c0198afa9da82aab356dab9e4582c
 
 COCOAPODS: 1.2.1

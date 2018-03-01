@@ -19,7 +19,6 @@ pod 'BabyBluetooth'
 pod 'FMDB'
 pod 'TOWebViewController'
 
-
 pod 'AMapLocation-NO-IDFA' #定位SDK
 pod 'AMapSearch-NO-IDFA' #搜索服务SDK
 pod 'AMapNavi-NO-IDFA', '2.3.0' #导航SDK
