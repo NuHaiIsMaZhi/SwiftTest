@@ -15,8 +15,14 @@
 		ABA33408203FF65A0076283B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA33406203FF65A0076283B /* LaunchScreen.storyboard */; };
 		ABA33413203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA33412203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift */; };
 		ABA3341E203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA3341D203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift */; };
+		ABAFCFD9204D1BA100F16FB6 /* 4.3.1finishaImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABAFCFD8204D1BA000F16FB6 /* 4.3.1finishaImage@2x.png */; };
+		ABB208C92049333D00212BB9 /* MZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB208C72049333D00212BB9 /* MZMainViewController.swift */; };
+		ABB208CB204933D000212BB9 /* TopSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB208CA204933D000212BB9 /* TopSignView.swift */; };
+		ABB208CD204937F400212BB9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB208CC204937F400212BB9 /* SecondView.swift */; };
+		ABB208CF2049381800212BB9 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB208CE2049381800212BB9 /* ThirdView.swift */; };
+		ABB208D12049383900212BB9 /* FourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB208D02049383900212BB9 /* FourView.swift */; };
+		ABB208D42049401200212BB9 /* 4.3.1TopBackImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB208D32049401200212BB9 /* 4.3.1TopBackImage@2x.png */; };
 		ABBC5E802043907C0064FAC4 /* MZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E7F2043907C0064FAC4 /* MZTabBarController.swift */; };
-		ABBC5E832043933C0064FAC4 /* MZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E822043933C0064FAC4 /* MZMainViewController.swift */; };
 		ABBC5E852043935A0064FAC4 /* MZClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E842043935A0064FAC4 /* MZClassViewController.swift */; };
 		ABBC5E872043937B0064FAC4 /* MZCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E862043937B0064FAC4 /* MZCartViewController.swift */; };
 		ABBC5E892043939E0064FAC4 /* MZMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC5E882043939E0064FAC4 /* MZMyViewController.swift */; };
@@ -60,8 +66,14 @@
 		ABA3341F203FF65B0076283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA8082D2047A37A008ED5BA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		ABA808322047AD15008ED5BA /* MZHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZHeader.h; sourceTree = "<group>"; };
+		ABAFCFD8204D1BA000F16FB6 /* 4.3.1finishaImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1finishaImage@2x.png"; sourceTree = "<group>"; };
+		ABB208C72049333D00212BB9 /* MZMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZMainViewController.swift; sourceTree = "<group>"; };
+		ABB208CA204933D000212BB9 /* TopSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSignView.swift; sourceTree = "<group>"; };
+		ABB208CC204937F400212BB9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		ABB208CE2049381800212BB9 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		ABB208D02049383900212BB9 /* FourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourView.swift; sourceTree = "<group>"; };
+		ABB208D32049401200212BB9 /* 4.3.1TopBackImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1TopBackImage@2x.png"; sourceTree = "<group>"; };
 		ABBC5E7F2043907C0064FAC4 /* MZTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZTabBarController.swift; sourceTree = "<group>"; };
-		ABBC5E822043933C0064FAC4 /* MZMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZMainViewController.swift; sourceTree = "<group>"; };
 		ABBC5E842043935A0064FAC4 /* MZClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZClassViewController.swift; sourceTree = "<group>"; };
 		ABBC5E862043937B0064FAC4 /* MZCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZCartViewController.swift; sourceTree = "<group>"; };
 		ABBC5E882043939E0064FAC4 /* MZMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZMyViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +139,7 @@
 		ABA333FC203FF65A0076283B /* MaZhiSwiftLKKKKKK */ = {
 			isa = PBXGroup;
 			children = (
+				ABB208D22049401200212BB9 /* ImagePage */,
 				ABBC5E812043932B0064FAC4 /* VC视图 */,
 				ABA333FD203FF65A0076283B /* AppDelegate.swift */,
 				ABA333FF203FF65A0076283B /* ViewController.swift */,
@@ -159,10 +172,55 @@
 			path = MaZhiSwiftLKKKKKKUITests;
 			sourceTree = "<group>";
 		};
+		ABB208C22049330300212BB9 /* 视图1 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB208C82049333D00212BB9 /* Model */,
+				ABB208C52049333D00212BB9 /* View */,
+				ABB208C62049333D00212BB9 /* Controller */,
+			);
+			path = "视图1";
+			sourceTree = "<group>";
+		};
+		ABB208C52049333D00212BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABB208CA204933D000212BB9 /* TopSignView.swift */,
+				ABB208CC204937F400212BB9 /* SecondView.swift */,
+				ABB208CE2049381800212BB9 /* ThirdView.swift */,
+				ABB208D02049383900212BB9 /* FourView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABB208C62049333D00212BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABB208C72049333D00212BB9 /* MZMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ABB208C82049333D00212BB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABB208D22049401200212BB9 /* ImagePage */ = {
+			isa = PBXGroup;
+			children = (
+				ABAFCFD8204D1BA000F16FB6 /* 4.3.1finishaImage@2x.png */,
+				ABB208D32049401200212BB9 /* 4.3.1TopBackImage@2x.png */,
+			);
+			path = ImagePage;
+			sourceTree = "<group>";
+		};
 		ABBC5E812043932B0064FAC4 /* VC视图 */ = {
 			isa = PBXGroup;
 			children = (
-				ABBC5E822043933C0064FAC4 /* MZMainViewController.swift */,
+				ABB208C22049330300212BB9 /* 视图1 */,
 				ABBC5E842043935A0064FAC4 /* MZClassViewController.swift */,
 				ABBC5E862043937B0064FAC4 /* MZCartViewController.swift */,
 				ABBC5E882043939E0064FAC4 /* MZMyViewController.swift */,
@@ -289,8 +347,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB208D42049401200212BB9 /* 4.3.1TopBackImage@2x.png in Resources */,
 				ABA33408203FF65A0076283B /* LaunchScreen.storyboard in Resources */,
 				ABA33405203FF65A0076283B /* Assets.xcassets in Resources */,
+				ABAFCFD9204D1BA100F16FB6 /* 4.3.1finishaImage@2x.png in Resources */,
 				ABA33403203FF65A0076283B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,13 +424,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB208D12049383900212BB9 /* FourView.swift in Sources */,
 				ABBC5E852043935A0064FAC4 /* MZClassViewController.swift in Sources */,
 				ABBC5E872043937B0064FAC4 /* MZCartViewController.swift in Sources */,
 				ABA33400203FF65A0076283B /* ViewController.swift in Sources */,
+				ABB208C92049333D00212BB9 /* MZMainViewController.swift in Sources */,
 				AB83A9EA20401A500075DA0B /* MZNavigationController.swift in Sources */,
 				ABBC5E802043907C0064FAC4 /* MZTabBarController.swift in Sources */,
+				ABB208CD204937F400212BB9 /* SecondView.swift in Sources */,
 				ABA333FE203FF65A0076283B /* AppDelegate.swift in Sources */,
-				ABBC5E832043933C0064FAC4 /* MZMainViewController.swift in Sources */,
+				ABB208CF2049381800212BB9 /* ThirdView.swift in Sources */,
+				ABB208CB204933D000212BB9 /* TopSignView.swift in Sources */,
 				ABBC5E892043939E0064FAC4 /* MZMyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

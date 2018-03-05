@@ -23,28 +23,45 @@ class MZMainViewController: UIViewController,ChargeBgColorDelegate {
         baseScrollView = UIScrollView()
         baseScrollView.backgroundColor = UIColor.red
         baseScrollView.alwaysBounceVertical = true
-        baseScrollView.alwaysBounceHorizontal = true
-        baseScrollView.contentSize = CGSize(width: 0, height: self.view.frame.size.height + 100)
+        baseScrollView.alwaysBounceHorizontal = false
         self.view .addSubview(baseScrollView)
         _ = baseScrollView.sd_layout().bottomSpaceToView(self.view, 0)?.topSpaceToView(self.view,0)?.leftSpaceToView(self.view,0)?.rightSpaceToView(self.view,0)
         
         buildTopView()
+        
     }
     
     func buildTopView(){
         
-        let topBaseView = UIView()
-        topBaseView.backgroundColor = UIColor.yellow
+        let topBaseView = TopSignView()
         baseScrollView .addSubview(topBaseView)
-        _ = topBaseView.sd_layout().topSpaceToView(baseScrollView,0)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+        _ = topBaseView.sd_layout().topSpaceToView(baseScrollView,0)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)
+        buildSecondView(lastView: topBaseView)
     }
     
-    func buildSecondView(){
+    func buildSecondView(lastView:UIView){
         
-        let secondView = UIView()
-        secondView.backgroundColor = UIColor.yellow
-        baseScrollView .addSubview(secondView)
-        _ = secondView.sd_layout().topSpaceToView(baseScrollView,0)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+        let secView = SecondView()
+        baseScrollView .addSubview(secView)
+        _ = secView.sd_layout().topSpaceToView(lastView,20)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+        buildThiedView(lastView: secView)
+    }
+    
+    func buildThiedView(lastView:UIView){
+        
+        let tirView = ThirdView()
+        baseScrollView .addSubview(tirView)
+        _ = tirView.sd_layout().topSpaceToView(lastView,20)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+        buildFourView(lastView: tirView)
+    }
+    
+    func buildFourView(lastView:UIView){
+        
+        let fView = FourView()
+        baseScrollView .addSubview(fView)
+        _ = fView.sd_layout().topSpaceToView(lastView,20)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+        
+        baseScrollView .setupAutoContentSize(withBottomView: fView, bottomMargin: 20)
     }
     
     @objc func actionAnimaion(){
