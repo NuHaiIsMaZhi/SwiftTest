@@ -54,19 +54,15 @@ class TopSignView: UIView {
         
         buildProessView(lastView: remindLabel)
         
-        
-        
-        self .setupAutoHeight(withBottomView: remindLabel, bottomMargin: 10)
-        
     }
 
     
     func buildProessView(lastView:UIView?){
         
         let progressView = UIView()
-        progressView.backgroundColor = UIColor.white
+        progressView.backgroundColor = UIColor.gray
         self.addSubview(progressView)
-        _ = progressView.sd_layout()?.topSpaceToView(lastView,10)?.leftSpaceToView(self,0)?.rightSpaceToView(self,0)?.heightIs(40)
+        _ = progressView.sd_layout()?.topSpaceToView(lastView,10)?.leftSpaceToView(self,0)?.rightSpaceToView(self,0)?.heightIs(50)
         
         let leftImageView = UIImageView(image:UIImage(named:"4.3.1finishaImage"))
         leftImageView.contentMode = .scaleAspectFill
@@ -80,8 +76,25 @@ class TopSignView: UIView {
         titleLabel.textColor = UIColor.black
         titleLabel.font = UIFont.systemFont(ofSize: 14)
         progressView.addSubview(titleLabel)
-        _ = titleLabel.sd_layout().topSpaceToView(progressView,10)?.leftSpaceToView(leftImageView,10)?.autoHeightRatio(0)
+        _ = titleLabel.sd_layout().topSpaceToView(progressView,5)?.leftSpaceToView(leftImageView,10)?.autoHeightRatio(0)
         titleLabel.sd_maxWidth = 320
+        
+        let proNumberLabel = UILabel()
+        proNumberLabel.text = "0%"
+        proNumberLabel.font = UIFont.systemFont(ofSize: 14)
+        proNumberLabel.textAlignment = .left
+        proNumberLabel.textColor = UIColor.black
+        progressView.addSubview(proNumberLabel)
+        _ = proNumberLabel.sd_layout().centerYEqualToView(progressView)?.rightSpaceToView(progressView,10)?.heightIs(20)
+        proNumberLabel.sd_maxWidth = 320
+        
+        let proView = UIView()
+        proView.backgroundColor = UIColor.yellow
+        progressView.addSubview(proView)
+        _ = proView.sd_layout().bottomSpaceToView(progressView,10)?.heightIs(8)?.rightSpaceToView(proNumberLabel,5)?.leftSpaceToView(leftImageView,10)
+        proView.sd_cornerRadius = 4
+        
+        self .setupAutoHeight(withBottomView: progressView, bottomMargin: 0)
         
     }
 

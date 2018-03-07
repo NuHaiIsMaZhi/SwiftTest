@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AB83A9EA20401A500075DA0B /* MZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB83A9E920401A500075DA0B /* MZNavigationController.swift */; };
+		AB9EABF6204E46CF00682259 /* 4.3.1todayRWImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EABF5204E46CF00682259 /* 4.3.1todayRWImage@2x.png */; };
+		AB9EABF8204E656200682259 /* setEveryImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EABF7204E656200682259 /* setEveryImage@2x.png */; };
 		ABA333FE203FF65A0076283B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA333FD203FF65A0076283B /* AppDelegate.swift */; };
 		ABA33400203FF65A0076283B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA333FF203FF65A0076283B /* ViewController.swift */; };
 		ABA33403203FF65A0076283B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA33401203FF65A0076283B /* Main.storyboard */; };
@@ -51,6 +53,8 @@
 		69883B6B563D4745FEEDB405 /* Pods-MaZhiSwiftLKKKKKK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaZhiSwiftLKKKKKK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaZhiSwiftLKKKKKK/Pods-MaZhiSwiftLKKKKKK.debug.xcconfig"; sourceTree = "<group>"; };
 		85B8D26E9BA759CAF5D3B403 /* libPods-MaZhiSwiftLKKKKKK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaZhiSwiftLKKKKKK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB83A9E920401A500075DA0B /* MZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZNavigationController.swift; sourceTree = "<group>"; };
+		AB9EABF5204E46CF00682259 /* 4.3.1todayRWImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1todayRWImage@2x.png"; sourceTree = "<group>"; };
+		AB9EABF7204E656200682259 /* setEveryImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setEveryImage@2x.png"; sourceTree = "<group>"; };
 		ABA333FA203FF65A0076283B /* MaZhiSwiftLKKKKKK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaZhiSwiftLKKKKKK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA333FD203FF65A0076283B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABA333FF203FF65A0076283B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -211,6 +215,8 @@
 		ABB208D22049401200212BB9 /* ImagePage */ = {
 			isa = PBXGroup;
 			children = (
+				AB9EABF7204E656200682259 /* setEveryImage@2x.png */,
+				AB9EABF5204E46CF00682259 /* 4.3.1todayRWImage@2x.png */,
 				ABAFCFD8204D1BA000F16FB6 /* 4.3.1finishaImage@2x.png */,
 				ABB208D32049401200212BB9 /* 4.3.1TopBackImage@2x.png */,
 			);
@@ -347,8 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9EABF8204E656200682259 /* setEveryImage@2x.png in Resources */,
 				ABB208D42049401200212BB9 /* 4.3.1TopBackImage@2x.png in Resources */,
 				ABA33408203FF65A0076283B /* LaunchScreen.storyboard in Resources */,
+				AB9EABF6204E46CF00682259 /* 4.3.1todayRWImage@2x.png in Resources */,
 				ABA33405203FF65A0076283B /* Assets.xcassets in Resources */,
 				ABAFCFD9204D1BA100F16FB6 /* 4.3.1finishaImage@2x.png in Resources */,
 				ABA33403203FF65A0076283B /* Main.storyboard in Resources */,
