@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AB83A9EA20401A500075DA0B /* MZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB83A9E920401A500075DA0B /* MZNavigationController.swift */; };
+		AB9EA5D62050CFCF00F93C2D /* 4.3.1everyDayImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EA5D52050CFCE00F93C2D /* 4.3.1everyDayImage@2x.png */; };
+		AB9EA5DA2050DA9E00F93C2D /* 4.3.1CTKImage2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EA5D72050DA9D00F93C2D /* 4.3.1CTKImage2@2x.png */; };
+		AB9EA5DB2050DA9E00F93C2D /* 4.3.1CTKImage3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EA5D82050DA9D00F93C2D /* 4.3.1CTKImage3@2x.png */; };
+		AB9EA5DC2050DA9E00F93C2D /* 4.3.1CTKImage1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EA5D92050DA9D00F93C2D /* 4.3.1CTKImage1@2x.png */; };
 		AB9EABF6204E46CF00682259 /* 4.3.1todayRWImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EABF5204E46CF00682259 /* 4.3.1todayRWImage@2x.png */; };
 		AB9EABF8204E656200682259 /* setEveryImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9EABF7204E656200682259 /* setEveryImage@2x.png */; };
 		ABA333FE203FF65A0076283B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA333FD203FF65A0076283B /* AppDelegate.swift */; };
@@ -17,6 +21,8 @@
 		ABA33408203FF65A0076283B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA33406203FF65A0076283B /* LaunchScreen.storyboard */; };
 		ABA33413203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA33412203FF65B0076283B /* MaZhiSwiftLKKKKKKTests.swift */; };
 		ABA3341E203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA3341D203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift */; };
+		ABA5F6DD204F7E79001F6609 /* FFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5F6DC204F7E79001F6609 /* FFView.swift */; };
+		ABA8E52D205277110046B8C4 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABA8E527205276C80046B8C4 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABAFCFD9204D1BA100F16FB6 /* 4.3.1finishaImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABAFCFD8204D1BA000F16FB6 /* 4.3.1finishaImage@2x.png */; };
 		ABB208C92049333D00212BB9 /* MZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB208C72049333D00212BB9 /* MZMainViewController.swift */; };
 		ABB208CB204933D000212BB9 /* TopSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB208CA204933D000212BB9 /* TopSignView.swift */; };
@@ -46,13 +52,52 @@
 			remoteGlobalIDString = ABA333F9203FF65A0076283B;
 			remoteInfo = MaZhiSwiftLKKKKKK;
 		};
+		ABA8E526205276C80046B8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA8E521205276C70046B8C4 /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
+		ABA8E528205276C80046B8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA8E521205276C70046B8C4 /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
+			remoteInfo = "SnapKit Tests";
+		};
+		ABA8E52E205277110046B8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA8E521205276C70046B8C4 /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABA8E530205277120046B8C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ABA8E52D205277110046B8C4 /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4A3EAD4B8B6ACE855D72E2DC /* Pods-MaZhiSwiftLKKKKKK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaZhiSwiftLKKKKKK.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaZhiSwiftLKKKKKK/Pods-MaZhiSwiftLKKKKKK.release.xcconfig"; sourceTree = "<group>"; };
 		69883B6B563D4745FEEDB405 /* Pods-MaZhiSwiftLKKKKKK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaZhiSwiftLKKKKKK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaZhiSwiftLKKKKKK/Pods-MaZhiSwiftLKKKKKK.debug.xcconfig"; sourceTree = "<group>"; };
 		85B8D26E9BA759CAF5D3B403 /* libPods-MaZhiSwiftLKKKKKK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaZhiSwiftLKKKKKK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB83A9E920401A500075DA0B /* MZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZNavigationController.swift; sourceTree = "<group>"; };
+		AB9EA5D52050CFCE00F93C2D /* 4.3.1everyDayImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1everyDayImage@2x.png"; sourceTree = "<group>"; };
+		AB9EA5D72050DA9D00F93C2D /* 4.3.1CTKImage2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1CTKImage2@2x.png"; sourceTree = "<group>"; };
+		AB9EA5D82050DA9D00F93C2D /* 4.3.1CTKImage3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1CTKImage3@2x.png"; sourceTree = "<group>"; };
+		AB9EA5D92050DA9D00F93C2D /* 4.3.1CTKImage1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1CTKImage1@2x.png"; sourceTree = "<group>"; };
 		AB9EABF5204E46CF00682259 /* 4.3.1todayRWImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1todayRWImage@2x.png"; sourceTree = "<group>"; };
 		AB9EABF7204E656200682259 /* setEveryImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setEveryImage@2x.png"; sourceTree = "<group>"; };
 		ABA333FA203FF65A0076283B /* MaZhiSwiftLKKKKKK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaZhiSwiftLKKKKKK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,8 +113,10 @@
 		ABA33419203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaZhiSwiftLKKKKKKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA3341D203FF65B0076283B /* MaZhiSwiftLKKKKKKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaZhiSwiftLKKKKKKUITests.swift; sourceTree = "<group>"; };
 		ABA3341F203FF65B0076283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA5F6DC204F7E79001F6609 /* FFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFView.swift; sourceTree = "<group>"; };
 		ABA8082D2047A37A008ED5BA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		ABA808322047AD15008ED5BA /* MZHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZHeader.h; sourceTree = "<group>"; };
+		ABA8E521205276C70046B8C4 /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "../../Downloads/SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
 		ABAFCFD8204D1BA000F16FB6 /* 4.3.1finishaImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.3.1finishaImage@2x.png"; sourceTree = "<group>"; };
 		ABB208C72049333D00212BB9 /* MZMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZMainViewController.swift; sourceTree = "<group>"; };
 		ABB208CA204933D000212BB9 /* TopSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSignView.swift; sourceTree = "<group>"; };
@@ -120,6 +167,7 @@
 		ABA333F1203FF65A0076283B = {
 			isa = PBXGroup;
 			children = (
+				ABA8E521205276C70046B8C4 /* SnapKit.xcodeproj */,
 				ABA808322047AD15008ED5BA /* MZHeader.h */,
 				ABA333FC203FF65A0076283B /* MaZhiSwiftLKKKKKK */,
 				ABA33411203FF65A0076283B /* MaZhiSwiftLKKKKKKTests */,
@@ -176,6 +224,23 @@
 			path = MaZhiSwiftLKKKKKKUITests;
 			sourceTree = "<group>";
 		};
+		ABA5F6DB204F7E6A001F6609 /* 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				ABA5F6DC204F7E79001F6609 /* FFView.swift */,
+			);
+			path = "进度条";
+			sourceTree = "<group>";
+		};
+		ABA8E522205276C70046B8C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8E527205276C80046B8C4 /* SnapKit.framework */,
+				ABA8E529205276C80046B8C4 /* SnapKit Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		ABB208C22049330300212BB9 /* 视图1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +254,7 @@
 		ABB208C52049333D00212BB9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ABA5F6DB204F7E6A001F6609 /* 进度条 */,
 				ABB208CA204933D000212BB9 /* TopSignView.swift */,
 				ABB208CC204937F400212BB9 /* SecondView.swift */,
 				ABB208CE2049381800212BB9 /* ThirdView.swift */,
@@ -215,6 +281,10 @@
 		ABB208D22049401200212BB9 /* ImagePage */ = {
 			isa = PBXGroup;
 			children = (
+				AB9EA5D92050DA9D00F93C2D /* 4.3.1CTKImage1@2x.png */,
+				AB9EA5D72050DA9D00F93C2D /* 4.3.1CTKImage2@2x.png */,
+				AB9EA5D82050DA9D00F93C2D /* 4.3.1CTKImage3@2x.png */,
+				AB9EA5D52050CFCE00F93C2D /* 4.3.1everyDayImage@2x.png */,
 				AB9EABF7204E656200682259 /* setEveryImage@2x.png */,
 				AB9EABF5204E46CF00682259 /* 4.3.1todayRWImage@2x.png */,
 				ABAFCFD8204D1BA000F16FB6 /* 4.3.1finishaImage@2x.png */,
@@ -256,10 +326,12 @@
 				ABA333F8203FF65A0076283B /* Resources */,
 				CE0D23A9D9AA4039731C0C42 /* [CP] Embed Pods Frameworks */,
 				6839AB147F5017608D6A8FAA /* [CP] Copy Pods Resources */,
+				ABA8E530205277120046B8C4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ABA8E52F205277110046B8C4 /* PBXTargetDependency */,
 			);
 			name = MaZhiSwiftLKKKKKK;
 			productName = MaZhiSwiftLKKKKKK;
@@ -339,6 +411,12 @@
 			mainGroup = ABA333F1203FF65A0076283B;
 			productRefGroup = ABA333FB203FF65A0076283B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ABA8E522205276C70046B8C4 /* Products */;
+					ProjectRef = ABA8E521205276C70046B8C4 /* SnapKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ABA333F9203FF65A0076283B /* MaZhiSwiftLKKKKKK */,
@@ -348,17 +426,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		ABA8E527205276C80046B8C4 /* SnapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SnapKit.framework;
+			remoteRef = ABA8E526205276C80046B8C4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ABA8E529205276C80046B8C4 /* SnapKit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SnapKit Tests.xctest";
+			remoteRef = ABA8E528205276C80046B8C4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		ABA333F8203FF65A0076283B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9EA5DC2050DA9E00F93C2D /* 4.3.1CTKImage1@2x.png in Resources */,
 				AB9EABF8204E656200682259 /* setEveryImage@2x.png in Resources */,
 				ABB208D42049401200212BB9 /* 4.3.1TopBackImage@2x.png in Resources */,
+				AB9EA5DB2050DA9E00F93C2D /* 4.3.1CTKImage3@2x.png in Resources */,
 				ABA33408203FF65A0076283B /* LaunchScreen.storyboard in Resources */,
 				AB9EABF6204E46CF00682259 /* 4.3.1todayRWImage@2x.png in Resources */,
 				ABA33405203FF65A0076283B /* Assets.xcassets in Resources */,
+				AB9EA5DA2050DA9E00F93C2D /* 4.3.1CTKImage2@2x.png in Resources */,
 				ABAFCFD9204D1BA100F16FB6 /* 4.3.1finishaImage@2x.png in Resources */,
+				AB9EA5D62050CFCF00F93C2D /* 4.3.1everyDayImage@2x.png in Resources */,
 				ABA33403203FF65A0076283B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB208D12049383900212BB9 /* FourView.swift in Sources */,
+				ABA5F6DD204F7E79001F6609 /* FFView.swift in Sources */,
 				ABBC5E852043935A0064FAC4 /* MZClassViewController.swift in Sources */,
 				ABBC5E872043937B0064FAC4 /* MZCartViewController.swift in Sources */,
 				ABA33400203FF65A0076283B /* ViewController.swift in Sources */,
@@ -475,6 +575,11 @@
 			isa = PBXTargetDependency;
 			target = ABA333F9203FF65A0076283B /* MaZhiSwiftLKKKKKK */;
 			targetProxy = ABA3341A203FF65B0076283B /* PBXContainerItemProxy */;
+		};
+		ABA8E52F205277110046B8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			targetProxy = ABA8E52E205277110046B8C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -609,6 +714,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69883B6B563D4745FEEDB405 /* Pods-MaZhiSwiftLKKKKKK.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JFG26C649;
@@ -630,6 +736,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A3EAD4B8B6ACE855D72E2DC /* Pods-MaZhiSwiftLKKKKKK.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JFG26C649;

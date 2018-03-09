@@ -18,9 +18,11 @@ class TopSignView: UIView {
         self.backgroundColor = UIColor.white
         
         let imageView = UIImageView(image:UIImage(named:"4.3.1TopBackImage"))
-        imageView.contentMode = .scaleAspectFill
+        let imageWidthFloat = (UIImage(named:"4.3.1TopBackImage")?.size.width)! + 40
+        
+        
         let imageHeightFloat = UIImage(named:"4.3.1TopBackImage")?.size.height
-        _ = imageView.sd_layout().topSpaceToView(self,0)?.leftSpaceToView(self,0)?.rightSpaceToView(self,0)?.heightIs(imageHeightFloat!)
+        _ = imageView.sd_layout().topSpaceToView(self,0)?.leftSpaceToView(self,0)?.rightSpaceToView(self,0)?.heightIs(imageHeightFloat!)?.widthIs(imageWidthFloat)
         self.addSubview(imageView)
         
         let dayLabel = UILabel()

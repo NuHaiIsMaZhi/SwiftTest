@@ -12,6 +12,10 @@ import UIKit
 
 class SecondView: UIView {
     
+    let cireView = FFView.init(frame: CGRect(x:10,y:80,width:100,height:100))
+
+    let cireView2 = FFView.init(frame: CGRect(x:10,y:80,width:100,height:100))
+
     override init(frame: CGRect) {
         
         super.init(frame: frame)
@@ -49,12 +53,106 @@ class SecondView: UIView {
         secondLabel.textColor = UIColor.black
         self.addSubview(secondLabel)
         _ = secondLabel.sd_layout().topSpaceToView(firtstLineView,10)?.leftSpaceToView(self,10)?.autoHeightRatio(0)
-        topLabel.sd_maxWidth = 320
+        secondLabel.sd_maxWidth = 320
         
+        self.addSubview(cireView)
+        self.cireView.value = 90
+        self.cireView.maximumValue = 2
+        self.cireView.frame = CGRect(x:10,y:80,width:100,height:100)
+        _ = self.cireView.sd_layout().topSpaceToView(secondLabel,15)?.leftSpaceToView(self,40)?.widthIs(120)?.heightIs(120)
+        
+        self.addSubview(cireView2)
+        self.cireView2.value = 90
+        self.cireView2.maximumValue = 2
+        self.cireView2.frame = CGRect(x:10,y:80,width:100,height:100)
+       _ = self.cireView2.sd_layout().topSpaceToView(secondLabel,15)?.rightSpaceToView(self,40)?.widthIs(120)?.heightIs(120)
+      
+        let proLeftLabel = UILabel()
+        proLeftLabel.text = "单词"
+        proLeftLabel.font = UIFont.systemFont(ofSize: 14)
+        proLeftLabel.textColor = UIColor.black
+        proLeftLabel.textAlignment = .center
+        self.addSubview(proLeftLabel)
+        _ = proLeftLabel.sd_layout().topSpaceToView(self.cireView , 10)?.centerXEqualToView(self.cireView)?.autoHeightRatio(0)
+        proLeftLabel.sd_maxWidth = 320
+        
+        let proRightLabel = UILabel()
+        proRightLabel.text = "词汇"
+        proRightLabel.font = UIFont.systemFont(ofSize: 14)
+        proRightLabel.textColor = UIColor.black
+        proRightLabel.textAlignment = .center
+        self.addSubview(proRightLabel)
+        _ = proRightLabel.sd_layout().topSpaceToView(self.cireView2 , 10)?.centerXEqualToView(self.cireView2)?.autoHeightRatio(0)
+        proRightLabel.sd_maxWidth = 320
+        
+        let lineView = UIView()
+        lineView.backgroundColor = UIColor.black
+        self.addSubview(lineView)
+        _ = lineView.sd_layout().topSpaceToView(proLeftLabel,15)?.leftSpaceToView(self,0)?.rightSpaceToView(self,0)?.heightIs(1)
+        
+        let listArray :[String] = ["语法练习","听力练习","晨读题","阅读逻辑练习","真题题型分类练习"]
+      
+        let valueArray :[String] = ["哈哈哈","呵呵呵","嘻嘻嘻","吼吼吼","唧唧唧"]
+        
+        var currentNumber = 0
+        
+        var tempView = lineView
+        
+        
+        for currentNumber in 0...(listArray.count - 1){
+            
+            let leftValue = listArray[currentNumber]
+            let rightValue = valueArray[currentNumber]
+            
+            let leftTitleLabel = UILabel()
+            leftTitleLabel.text = leftValue
+            leftTitleLabel.font = UIFont.systemFont(ofSize: 14)
+            leftTitleLabel.textColor = UIColor.black
+            leftTitleLabel.textAlignment = .center
+            self.addSubview(leftTitleLabel)
+            _ = leftTitleLabel.sd_layout().topSpaceToView(tempView , 15)?.leftSpaceToView(self , 10)?.autoHeightRatio(0)
+            leftTitleLabel.sd_maxWidth = 320
+            
+            let rightValueLabel = UILabel()
+            rightValueLabel.text = rightValue
+            rightValueLabel.font = UIFont.systemFont(ofSize: 14)
+            rightValueLabel.textColor = UIColor.black
+            rightValueLabel.textAlignment = .center
+            self.addSubview(rightValueLabel)
+            _ = rightValueLabel.sd_layout().topSpaceToView(tempView , 15)?.rightSpaceToView(self , 10)?.autoHeightRatio(0)
+            rightValueLabel.sd_maxWidth = 320
+            
+            let queLineView = UIView()
+            queLineView.backgroundColor = UIColor.black
+            self.addSubview(queLineView)
+            _ = queLineView.sd_layout().topSpaceToView(rightValueLabel, 10)?.leftSpaceToView(self,10)?.rightSpaceToView(self,10)?.heightIs(1)
+            
+            
+            tempView = queLineView
+        }
+        
+        
+        self .setupAutoHeight(withBottomView: tempView, bottomMargin: 10)
     }
     
+    @objc func wangmumu(){
+        
+        self.cireView.value += 0.2
+        
+        if self.cireView.value > 90 {return}
+        
+        self.perform(#selector(self.wangmumu), with: self, afterDelay: 0.02)
+    }
+    @objc func wangmumu2(){
+        
+        self.cireView2.value += 0.2
+        
+        if self.cireView2.value > 90 {return}
+        
+        self.perform(#selector(self.wangmumu), with: self, afterDelay: 0.02)
+    }
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }

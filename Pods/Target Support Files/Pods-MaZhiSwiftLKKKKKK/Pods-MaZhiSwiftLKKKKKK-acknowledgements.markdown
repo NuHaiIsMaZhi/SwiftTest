@@ -232,10 +232,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## MOBFoundation
-
-Copyright © 2012-2015 mob
-
 ## RSKImageCropper
 
 Copyright (c) 2014 Ruslan Skorb, http://lnkd.in/gsBbvb

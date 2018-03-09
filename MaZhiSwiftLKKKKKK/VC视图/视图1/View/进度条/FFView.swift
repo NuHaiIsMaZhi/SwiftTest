@@ -1,0 +1,76 @@
+//
+//  FFView.swift
+//  MaZhiSwiftLKKKKKK
+//
+//  Created by saifing on 2018/3/7.
+//  Copyright © 2018年 BKZ. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+class FFView: UIView {
+    var value: CGFloat = 0 {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
+    
+    var maximumValue: CGFloat = 0 {
+        didSet { self.setNeedsDisplay() }
+    }
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        self.isOpaque = false
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+        super.draw(rect)
+        
+        
+        //线宽度
+        let lineWidth: CGFloat = 7
+        //半径
+        let radius = rect.width / 2.0 - lineWidth
+        //中心点x
+        let centerX = rect.midX
+        //中心点y
+        let centerY = rect.midY
+        //弧度起点
+        let startAngle = CGFloat(-90 * M_PI / 180)
+        //弧度终点
+        let endAngle = CGFloat(((self.value / self.maximumValue) * 360.0 - 90.0) ) * CGFloat(M_PI) / 180.0
+        
+        //创建一个画布
+        let context = UIGraphicsGetCurrentContext()
+        
+        //画笔颜色
+        context!.setStrokeColor(UIColor.blue.cgColor)
+        
+        //画笔宽度
+        context!.setLineWidth(lineWidth)
+        
+        //（1）画布 （2）中心点x（3）中心点y（4）圆弧起点（5）圆弧结束点（6） 0顺时针 1逆时针
+        context?.addArc(center: CGPoint(x:centerX,y:centerY), radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: false)
+        
+        //绘制路径
+        context!.strokePath()
+        
+        //画笔颜色
+        context!.setStrokeColor(UIColor.darkGray.cgColor)
+        
+        //画笔宽度
+        context!.setLineWidth(lineWidth - 5)
+
+        //（1）画布 （2）中心点x（3）中心点y（4）圆弧起点（5）圆弧结束点（6） 0顺时针 1逆时针
+        context?.addArc(center: CGPoint(x:centerX,y:centerY), radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: true)
+        
+        //绘制路径
+        context!.strokePath()
+    }
+}

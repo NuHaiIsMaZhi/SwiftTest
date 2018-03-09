@@ -8,28 +8,41 @@
 
 import Foundation
 import UIKit
+import SnapKit
 
 class MZMainViewController: UIViewController,ChargeBgColorDelegate {
     
     
-    var baseScrollView = UIScrollView()
-    
+    fileprivate lazy var baseScrollView : UIScrollView={
+        let scrollView = UIScrollView()
+        scrollView.backgroundColor = UIColor.gray
+        scrollView.alwaysBounceVertical = true
+        scrollView.alwaysBounceHorizontal = false
+        scrollView.frame = CGRect(x: 0, y: 0, width: self.view.size.width, height: self.view.size.height)
+        return scrollView
+    }()
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         
-        baseScrollView = UIScrollView()
-        baseScrollView.backgroundColor = UIColor.red
-        baseScrollView.alwaysBounceVertical = true
-        baseScrollView.alwaysBounceHorizontal = false
-        self.view .addSubview(baseScrollView)
-        _ = baseScrollView.sd_layout().bottomSpaceToView(self.view, 0)?.topSpaceToView(self.view,0)?.leftSpaceToView(self.view,0)?.rightSpaceToView(self.view,0)
+        self.baseScrollView.backgroundColor = UIColor.gray
+        self.view .addSubview(self.baseScrollView)
         
-        buildTopView()
+        baseScrollView.snp.makeConstraints { (make) in
+            
+            make.top.equalTo(10)
+            make.bottom.equalTo(0)
+            make.left.equalTo(0)
+            make.right.equalTo(0)
+        }
         
+//        _ = baseScrollView.sd_layout().bottomSpaceToView(self.view, 0)?.topSpaceToView(self.view,0)?.leftSpaceToView(self.view,0)?.rightSpaceToView(self.view,0)
+        
+      //  buildTopView()
     }
+    
     
     func buildTopView(){
         
@@ -37,13 +50,14 @@ class MZMainViewController: UIViewController,ChargeBgColorDelegate {
         baseScrollView .addSubview(topBaseView)
         _ = topBaseView.sd_layout().topSpaceToView(baseScrollView,0)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)
         buildSecondView(lastView: topBaseView)
+        
     }
     
     func buildSecondView(lastView:UIView){
         
         let secView = SecondView()
         baseScrollView .addSubview(secView)
-        _ = secView.sd_layout().topSpaceToView(lastView,20)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+        _ = secView.sd_layout().topSpaceToView(lastView,10)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)
         buildThiedView(lastView: secView)
     }
     
@@ -51,7 +65,7 @@ class MZMainViewController: UIViewController,ChargeBgColorDelegate {
         
         let tirView = ThirdView()
         baseScrollView .addSubview(tirView)
-        _ = tirView.sd_layout().topSpaceToView(lastView,20)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+        _ = tirView.sd_layout().topSpaceToView(lastView,10)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)
         buildFourView(lastView: tirView)
     }
     
@@ -59,14 +73,14 @@ class MZMainViewController: UIViewController,ChargeBgColorDelegate {
         
         let fView = FourView()
         baseScrollView .addSubview(fView)
-        _ = fView.sd_layout().topSpaceToView(lastView,20)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)?.heightIs(200)
+        _ = fView.sd_layout().topSpaceToView(lastView,10)?.leftSpaceToView(baseScrollView,0)?.rightSpaceToView(baseScrollView,0)
         
         baseScrollView .setupAutoContentSize(withBottomView: fView, bottomMargin: 20)
     }
     
     @objc func actionAnimaion(){
         
-        self.view.backgroundColor = UIColor.white
+        self.view.backgroundColor = UIColor.gray
         let classVC = MZClassViewController()
         classVC.delegate = self
         
